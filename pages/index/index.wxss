@@ -1,0 +1,178 @@
+/**index.wxss**/
+.container {
+  background-color: #f6f6f6;
+  height: 1200px;
+  width: 100%;
+}
+
+.head {
+  position:absolute;
+  width: 100%;
+  height: 368rpx;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.special {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  background-color: white;
+  position:relative;
+  top: 70rpx ;
+  border-radius: 5px;
+  height: 184rpx;
+  
+
+}
+.special .navitem {
+  flex: 1 1 276rpx;
+  text-align: center;
+  padding-top: 24rpx;
+  padding-bottom: 24rpx;
+}
+.special .navitem .navimg {
+  width: 84rpx;
+  height: 84rpx;
+}
+.special .navitem .title {
+  margin-top: 10rpx;
+  display: block;
+  color: #333333;
+  font-size: 28rpx;
+}
+
+
+.healthCare {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  position:absolute;
+  background-color: white;
+  border-radius: 5px;
+  top: 201px;
+}
+.topNav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: white;
+  margin-top: 24rpx;
+}
+.topNavIcon  {
+  width: 32rpx;
+  height: 32rpx;
+  margin-left: 24rpx;
+}
+.toptitle {
+  color: #333333;
+  font-size: 28rpx;
+  font-weight: 500;
+  margin-left: 16rpx;
+}
+
+.locTitle {
+  margin-left: 24rpx;
+  margin-top: 24rpx;
+  left: 24rpx;
+  color: #333333;
+  font-size: 28rpx;
+  font-weight: 500;
+}
+
+.localConduction {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;
+  list-style: none;
+  margin-top: 24rpx;
+}
+.localConduction .navitem {
+  flex: 1 1 150rpx;
+  text-align: center;
+  padding-top: 20rpx;
+}
+.localConduction .navitem .navimg {
+  width: 52rpx;
+  height: 52rpx;
+}
+.localConduction .navitem .title {
+  margin-top: 10rpx;
+  display: block;
+  color: #333333;
+  font-size: 28rpx;
+}
+
+.anotherTitle {
+  margin-top: 24rpx;
+  margin-left: 24rpx;
+  color: #333333;
+  font-size: 28rpx;
+  font-weight: 500;
+}
+
+.anotherConduction {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  list-style: none;
+  background-color: white;
+  margin-top: 24rpx;
+}
+.anotherConduction .navitem {
+  flex: 1 1 150rpx;
+  text-align: center;
+  padding-top: 20rpx;
+}
+.anotherConduction .navitem .navimg {
+  width: 52rpx;
+  height: 52rpx;
+}
+.anotherConduction .navitem .title {
+  margin-top: 10rpx;
+  display: block;
+  color: #333333;
+  font-size: 28rpx;
+}
+
+
+.newsTabs{
+  display:flex;
+  flex-direction: column;
+  position:absolute;
+  width:95%;
+  height:414px;
+  width: 95%;
+  background-color:white;
+  border-radius: 5px;
+  top: 470px;
+}
+
+.newsTabs_top {
+  display:flex;
+  flex-direction: row;
+  width:100%;
+  height:32px;
+  width: 95%;
+  background-color: white;
+}
+
+.newsTabs_topNavIcon {
+   margin-top: 24rpx;
+   margin-left: 24rpx;
+   height: 32rpx;
+   width: 32rpx;
+}
+
+.informationTitle {
+  margin-top: 20rpx;
+  margin-left: 16rpx;
+  color: #333333;
+  font-size: 28rpx;
+  font-weight: 500;
+}
+
+
+
+

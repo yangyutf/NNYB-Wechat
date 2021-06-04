@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/my/my"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "南宁市医保",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#2F79F8",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "iconPath": "assets/images/civicCenter_gray.png",
+        "selectedIconPath": "assets/images/civicCenter_light.png",
+        "text": "市民中心"
+    }, {
+        "pagePath": "pages/my/my",
+        "iconPath": "assets/images/my_gray.png",
+        "selectedIconPath": "assets/images/my_light.png",
+        "text": "我的"
+    }]
+},
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,58 @@
+<!--index.wxml-->
+
+<view class="container" bindtouchmove = "scroll" >
+<!-- banner图 -->
+<image class = "head" src="/assets/images/civicCenter_banner.png" mode='aspectFill' > 
+</image>
+
+<!-- 专题栏导航部分 -->
+<view class="special">
+ <view wx:for="{{special}}" class="navitem" bindtap= "navToSpecial">
+  <image src="{{item.img}}" class="navimg" mode="aspectFill"/>
+  <text class="title">{{item.title}}</text>
+ </view>
+</view>
+
+<!-- 移动医保 -->
+<view class="healthCare">
+ <view class="topNav">
+  <image src="/assets/images/index_icon.png" class="topNavIcon" mode= "aspectFill">
+  </image>
+  <text class="toptitle">移动医保服务</text>
+ </view>
+ <!-- 本地办理 -->
+ <text class="locTitle">本地办理</text>
+ <view class="localConduction">
+ <view wx:for="{{local}}" class="navitem" bindtap= "navToSpecial">
+  <image src="{{item.img}}" class="navimg" mode="aspectFill"/>
+  <text class="title">{{item.title}}</text>
+ </view>
+</view>
+<!-- 异地就医 -->
+<text class="anotherTitle">异地就医</text>
+<view class="anotherConduction">
+ <view wx:for="{{another}}" class="navitem" bindtap= "navToSpecial">
+  <image src="{{item.img}}" class="navimg" mode="aspectFill"/>
+  <text class="title">{{item.title}}</text>
+ </view>
+</view>
+</view>>
+
+<!-- tabs -->
+<view class="newsTabs">
+<view class="newsTabs_top">
+  <image src="/assets/images/index_icon2.png" class="newsTabs_topNavIcon" mode= "aspectFill">
+  </image>
+  <text class="informationTitle">内容资讯</text>
+</view>
+
+  <!-- <view class="nav_tab">
+    <view wx:for="{{newsItem}}" class="{{selected==index?'hidden':'show'}}" data-index='{{index}}' bindtap="selected">{{item}}
+      <view class="{{selected==index?'nav_underline':''}}"></view>
+    </view>
+  </view> -->
+  
+</view>
+
+
+</view>
